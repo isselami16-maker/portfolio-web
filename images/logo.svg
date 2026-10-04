@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Compact eagle mark for navigation bar -->
+  <path d="M16 4 L11 12 L5 13 L10 16 L6 21 L13 20 L10 25 L15 23 L16 27 L17 23 L22 25 L19 20 L26 21 L22 16 L27 13 L21 12 Z"
+        stroke="#10b981" stroke-width="1.5" stroke-linejoin="round" fill="none"/>
+  <circle cx="15" cy="16" r="1.2" fill="#10b981"/>
+</svg>

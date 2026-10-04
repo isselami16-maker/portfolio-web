@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Minimal geometric eagle head — sharp, professional, cybersecurity identity -->
+  <path d="M60 12 L42 34 L22 36 L38 44 L26 56 L44 54 L36 70 L52 62 L56 82 L60 72 L64 82 L68 62 L84 70 L76 54 L94 56 L82 44 L98 36 L78 34 Z"
+        stroke="#10b981" stroke-width="2" stroke-linejoin="round" fill="none"/>
+  <path d="M48 48 L54 56 L60 50 L66 56 L72 48" stroke="#10b981" stroke-width="1.5" stroke-linejoin="round" fill="none"/>
+  <circle cx="58" cy="46" r="2.5" fill="#10b981"/>
+  <path d="M44 82 L60 92 L76 82" stroke="#10b981" stroke-width="2" stroke-linejoin="round" fill="none" opacity="0.4"/>
+</svg>

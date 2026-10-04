@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ISHAK — Cybersecurity Student & Developer. Building practical skills across cybersecurity, web development and software engineering.">
+  <title>ISHAK — Cybersecurity Student & Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ==================== NAVIGATION ==================== -->
+  <header class="site-header" id="siteHeader">
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#hero" class="nav__logo" aria-label="ISHAK home">
+        <img src="images/logo.svg" alt="Eagle logo" width="28" height="28">
+        <span class="nav__logo-text">EAGLE <span class="nav__logo-sep">/</span> ISHAK</span>
+      </a>
+
+      <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation">
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+      </button>
+
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#hero" class="nav__link">Home</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#skills" class="nav__link">Skills</a></li>
+        <li><a href="#projects" class="nav__link">Projects</a></li>
+        <li><a href="#roadmap" class="nav__link">Roadmap</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ==================== HERO ==================== -->
+    <section id="hero" class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="hero__eyebrow"><span class="status-dot"></span> Cybersecurity Student &amp; Developer</p>
+          <h1 class="hero__title">ISHAK</h1>
+          <p class="hero__tagline">Building practical skills across cybersecurity, web development and software engineering.</p>
+          <p class="hero__sub">My goal is to become a developer who understands not only how to build applications, but also how to analyze, secure and attack them.</p>
+          <div class="hero__cta">
+            <a href="#projects" class="btn btn--primary">View Projects</a>
+            <a href="#roadmap" class="btn btn--ghost">Explore My Roadmap</a>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <div class="hero__eagle-ring"></div>
+          <img src="images/eagle.svg" alt="Abstract eagle silhouette representing vision and precision" class="hero__eagle">
+        </div>
+      </div>
+      <div class="hero__scroll" aria-hidden="true">
+        <span class="hero__scroll-text">scroll</span>
+        <span class="hero__scroll-line"></span>
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT ==================== -->
+    <section id="about" class="section">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__label">01 — About</span>
+          <h2 class="section__title">About Me</h2>
+        </header>
+        <div class="about__grid">
+          <div class="about__bio">
+            <p>I am a cybersecurity student interested in understanding systems from both sides:</p>
+            <p class="about__flow">Building them <span class="arrow">→</span> Breaking them <span class="arrow">→</span> Securing them</p>
+            <p>My interests span cybersecurity, web development, application security, Linux, networking, software engineering, C programming, and web penetration testing. I believe the best way to learn is by building real things and then understanding how they can fail.</p>
+          </div>
+          <div class="about__facts">
+            <article class="fact-card">
+              <h3 class="fact-card__label">Focus</h3>
+              <p class="fact-card__value">Cybersecurity + Development</p>
+            </article>
+            <article class="fact-card">
+              <h3 class="fact-card__label">Current Direction</h3>
+              <p class="fact-card__value">Web &amp; Application Security</p>
+            </article>
+            <article class="fact-card">
+              <h3 class="fact-card__label">Approach</h3>
+              <p class="fact-card__value">Learn → Build → Break → Secure</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SKILLS ==================== -->
+    <section id="skills" class="section section--alt">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__label">02 — Skills</span>
+          <h2 class="section__title">Skills &amp; Toolkit</h2>
+        </header>
+        <div class="skills__grid">
+          <article class="skill-card">
+            <h3 class="skill-card__title">Programming</h3>
+            <ul class="tags">
+              <li class="tag">C</li>
+              <li class="tag">JavaScript</li>
+              <li class="tag">Python</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3 class="skill-card__title">Web Development</h3>
+            <ul class="tags">
+              <li class="tag">HTML5</li>
+              <li class="tag">CSS3</li>
+              <li class="tag">JavaScript</li>
+              <li class="tag">Responsive Design</li>
+              <li class="tag">REST APIs</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3 class="skill-card__title">Cybersecurity</h3>
+            <ul class="tags">
+              <li class="tag">Web Security</li>
+              <li class="tag">Web Pentesting</li>
+              <li class="tag">OWASP</li>
+              <li class="tag">SQL Injection</li>
+              <li class="tag">Authentication Security</li>
+              <li class="tag">Application Security</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3 class="skill-card__title">Systems &amp; Networking</h3>
+            <ul class="tags">
+              <li class="tag">Linux</li>
+              <li class="tag">Networking</li>
+              <li class="tag">TCP/IP</li>
+              <li class="tag">OSI Model</li>
+              <li class="tag">Packet Tracer</li>
+              <li class="tag">Wireshark</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3 class="skill-card__title">Tools</h3>
+            <ul class="tags">
+              <li class="tag">Git</li>
+              <li class="tag">GitHub</li>
+              <li class="tag">Linux CLI</li>
+              <li class="tag">VS Code</li>
+              <li class="tag">Burp Suite</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PROJECTS ==================== -->
+    <section id="projects" class="section">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__label">03 — Projects</span>
+          <h2 class="section__title">Projects</h2>
+          <p class="section__sub">Learn by building.</p>
+        </header>
+        <div class="projects__grid">
+
+          <article class="project-card">
+            <div class="project-card__top">
+              <span class="project-card__category">Full-Stack / E-Commerce</span>
+              <span class="project-card__icon">⚙</span>
+            </div>
+            <h3 class="project-card__title">RAHIQ Parfums</h3>
+            <p class="project-card__desc">A real-world e-commerce website built for a perfume business, including product management, offers, ordering workflow and responsive UI.</p>
+            <ul class="tags tags--sm">
+              <li class="tag">HTML/CSS</li>
+              <li class="tag">JavaScript</li>
+              <li class="tag">Supabase</li>
+              <li class="tag">Vercel</li>
+              <li class="tag">GitHub</li>
+            </ul>
+            <div class="project-card__links">
+              <a href="#" class="btn btn--small btn--primary" aria-label="View RAHIQ Parfums on GitHub">GitHub</a>
+              <a href="#" class="btn btn--small btn--ghost">Live Demo</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__top">
+              <span class="project-card__category">Cybersecurity / Linux</span>
+              <span class="project-card__icon">⌘</span>
+            </div>
+            <h3 class="project-card__title">Linux CLI Security Toolkit</h3>
+            <p class="project-card__desc">A command-line toolkit designed to practice Linux commands, file manipulation, networking and security-oriented automation.</p>
+            <ul class="tags tags--sm">
+              <li class="tag">Linux</li>
+              <li class="tag">Bash</li>
+              <li class="tag">Shell</li>
+              <li class="tag">Networking</li>
+            </ul>
+            <div class="project-card__links">
+              <a href="#" class="btn btn--small btn--primary">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__top">
+              <span class="project-card__category">Networking / Cybersecurity</span>
+              <span class="project-card__icon">◈</span>
+            </div>
+            <h3 class="project-card__title">Network Analysis Lab</h3>
+            <p class="project-card__desc">A practical networking laboratory focused on packet analysis, protocols, traffic inspection and troubleshooting.</p>
+            <ul class="tags tags--sm">
+              <li class="tag">Wireshark</li>
+              <li class="tag">TCP/IP</li>
+              <li class="tag">Packet Tracer</li>
+            </ul>
+            <div class="project-card__links">
+              <a href="#" class="btn btn--small btn--primary">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__top">
+              <span class="project-card__category">Web Pentesting</span>
+              <span class="project-card__icon">⚑</span>
+            </div>
+            <h3 class="project-card__title">Web Security Lab</h3>
+            <p class="project-card__desc">A controlled laboratory for studying common web vulnerabilities and understanding how web applications can be attacked and secured.</p>
+            <ul class="tags tags--sm">
+              <li class="tag">SQL Injection</li>
+              <li class="tag">Authentication</li>
+              <li class="tag">Access Control</li>
+              <li class="tag">XSS</li>
+              <li class="tag">HTTP</li>
+              <li class="tag">OWASP</li>
+            </ul>
+            <div class="project-card__links">
+              <a href="#" class="btn btn--small btn--primary">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__top">
+              <span class="project-card__category">Programming / Cybersecurity</span>
+              <span class="project-card__icon">⬡</span>
+            </div>
+            <h3 class="project-card__title">C Security Utilities</h3>
+            <p class="project-card__desc">Small C programs designed to strengthen low-level programming, memory understanding, file handling and system-oriented problem solving.</p>
+            <ul class="tags tags--sm">
+              <li class="tag">C</li>
+              <li class="tag">Linux</li>
+              <li class="tag">GCC</li>
+            </ul>
+            <div class="project-card__links">
+              <a href="#" class="btn btn--small btn--primary">GitHub</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ROADMAP ==================== -->
+    <section id="roadmap" class="section section--alt">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__label">04 — Roadmap</span>
+          <h2 class="section__title">Where I'm Going</h2>
+          <p class="section__sub">A long-term roadmap from fundamentals to security engineering.</p>
+        </header>
+        <div class="roadmap">
+
+          <article class="roadmap__stage">
+            <div class="roadmap__marker">
+              <span class="roadmap__num">01</span>
+              <span class="roadmap__line"></span>
+            </div>
+            <div class="roadmap__content">
+              <h3 class="roadmap__title">Programming Fundamentals</h3>
+              <ul class="tags tags--sm">
+                <li class="tag">C</li>
+                <li class="tag">Data Structures</li>
+                <li class="tag">Algorithms</li>
+                <li class="tag">Memory</li>
+                <li class="tag">Files</li>
+                <li class="tag">Linux CLI</li>
+                <li class="tag">Git</li>
+              </ul>
+              <p class="roadmap__goal"><strong>Goal:</strong> Become comfortable solving problems with code.</p>
+            </div>
+          </article>
+
+          <article class="roadmap__stage">
+            <div class="roadmap__marker">
+              <span class="roadmap__num">02</span>
+              <span class="roadmap__line"></span>
+            </div>
+            <div class="roadmap__content">
+              <h3 class="roadmap__title">Web Development</h3>
+              <ul class="tags tags--sm">
+                <li class="tag">HTML</li>
+                <li class="tag">CSS</li>
+                <li class="tag">JavaScript</li>
+                <li class="tag">HTTP</li>
+                <li class="tag">REST APIs</li>
+                <li class="tag">Frontend</li>
+                <li class="tag">Backend</li>
+                <li class="tag">Databases</li>
+                <li class="tag">Authentication</li>
+              </ul>
+              <p class="roadmap__goal"><strong>Goal:</strong> Become a Full-Stack Developer.</p>
+            </div>
+          </article>
+
+          <article class="roadmap__stage">
+            <div class="roadmap__marker">
+              <span class="roadmap__num">03</span>
+              <span class="roadmap__line"></span>
+            </div>
+            <div class="roadmap__content">
+              <h3 class="roadmap__title">Networking &amp; Systems</h3>
+              <ul class="tags tags--sm">
+                <li class="tag">Linux</li>
+                <li class="tag">TCP/IP</li>
+                <li class="tag">DNS</li>
+                <li class="tag">HTTP</li>
+                <li class="tag">Routing</li>
+                <li class="tag">Switching</li>
+                <li class="tag">Wireshark</li>
+                <li class="tag">Operating Systems</li>
+              </ul>
+              <p class="roadmap__goal"><strong>Goal:</strong> Understand how applications communicate and how systems actually work.</p>
+            </div>
+          </article>
+
+          <article class="roadmap__stage">
+            <div class="roadmap__marker">
+              <span class="roadmap__num">04</span>
+              <span class="roadmap__line"></span>
+            </div>
+            <div class="roadmap__content">
+              <h3 class="roadmap__title">Web &amp; Application Security</h3>
+              <ul class="tags tags--sm">
+                <li class="tag">OWASP</li>
+                <li class="tag">Burp Suite</li>
+                <li class="tag">SQL Injection</li>
+                <li class="tag">XSS</li>
+                <li class="tag">Authentication</li>
+                <li class="tag">Authorization</li>
+                <li class="tag">SSRF</li>
+                <li class="tag">File Upload</li>
+                <li class="tag">API Security</li>
+              </ul>
+              <p class="roadmap__goal"><strong>Goal:</strong> Become a Web Pentester / Application Security Engineer.</p>
+            </div>
+          </article>
+
+          <article class="roadmap__stage">
+            <div class="roadmap__marker">
+              <span class="roadmap__num">05</span>
+              <span class="roadmap__line"></span>
+            </div>
+            <div class="roadmap__content">
+              <h3 class="roadmap__title">Advanced Security</h3>
+              <ul class="tags tags--sm">
+                <li class="tag">Active Directory</li>
+                <li class="tag">Network Security</li>
+                <li class="tag">Privilege Escalation</li>
+                <li class="tag">Exploit Development</li>
+                <li class="tag">Reverse Engineering</li>
+                <li class="tag">Malware Analysis</li>
+                <li class="tag">Cloud Security</li>
+              </ul>
+              <p class="roadmap__goal"><strong>Goal:</strong> Become a Security Engineer / Offensive Security Specialist.</p>
+            </div>
+          </article>
+
+          <article class="roadmap__stage roadmap__stage--final">
+            <div class="roadmap__marker">
+              <span class="roadmap__num roadmap__num--final">06</span>
+            </div>
+            <div class="roadmap__content roadmap__content--final">
+              <h3 class="roadmap__title">Security + Development</h3>
+              <p class="roadmap__target">Full-Stack Developer + Security Engineer</p>
+              <blockquote class="roadmap__quote">
+                Build applications like a developer.<br>
+                Attack them like a pentester.<br>
+                Secure them like a security engineer.
+              </blockquote>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CAREER DIRECTION ==================== -->
+    <section id="career" class="section">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__label">05 — Direction</span>
+          <h2 class="section__title">Target Roles</h2>
+          <p class="section__sub">Long-term professional directions I'm working toward.</p>
+        </header>
+        <div class="roles__grid">
+          <span class="role-pill">Full-Stack Developer</span>
+          <span class="role-pill">Backend Developer</span>
+          <span class="role-pill">Application Security Engineer</span>
+          <span class="role-pill">Web Penetration Tester</span>
+          <span class="role-pill">Security Engineer</span>
+          <span class="role-pill">DevSecOps Engineer</span>
+          <span class="role-pill">Cloud Security Engineer</span>
+          <span class="role-pill">Security Researcher</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PHILOSOPHY ==================== -->
+    <section class="philosophy">
+      <div class="container">
+        <h2 class="philosophy__statement">Build. Break. Understand. Secure.</h2>
+        <p class="philosophy__text">I don't want to learn technology only by reading about it. I want to build systems, understand how they work, test how they fail, and learn how to make them better.</p>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT ==================== -->
+    <section id="contact" class="section">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__label">06 — Contact</span>
+          <h2 class="section__title">Let's Connect</h2>
+          <p class="section__sub">Interested in technology, cybersecurity, development or building something together?</p>
+        </header>
+        <div class="contact__grid">
+          <div class="contact__links">
+            <a href="https://github.com/" class="contact-link" target="_blank" rel="noopener">
+              <span class="contact-link__icon">⌥</span>
+              <span class="contact-link__label">GitHub</span>
+              <span class="contact-link__handle">@ishak</span>
+            </a>
+            <a href="https://linkedin.com/" class="contact-link" target="_blank" rel="noopener">
+              <span class="contact-link__icon">◑</span>
+              <span class="contact-link__label">LinkedIn</span>
+              <span class="contact-link__handle">/in/ishak</span>
+            </a>
+            <a href="mailto:ishak@example.com" class="contact-link">
+              <span class="contact-link__icon">✉</span>
+              <span class="contact-link__label">Email</span>
+              <span class="contact-link__handle">ishak@example.com</span>
+            </a>
+          </div>
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+            <p class="form-feedback" id="formFeedback" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div class="site-footer__brand">
+        <img src="images/logo.svg" alt="Eagle logo" width="24" height="24">
+        <div>
+          <p class="site-footer__name">ISHAK</p>
+          <p class="site-footer__role">Cybersecurity Student &amp; Developer</p>
+        </div>
+      </div>
+      <nav class="site-footer__links" aria-label="Footer links">
+        <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:ishak@example.com">Email</a>
+      </nav>
+    </div>
+    <p class="site-footer__copy">© 2026 ISHAK. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
